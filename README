@@ -1,3 +1,26 @@
 Improved Remastering for Ubuntu
+An algorithm has been developed, which will enable the installation of the required pack-
+ages without inflating the size of the installation with dependencies. The algorithm has
+been aimed at decreasing the size of the final installation package or packages to an attain-
+able minima. Also a remastering software has been developed which will incorporate this
+algorithm, while remastering. 
 
 
+
+Pre-requisites
+Python APT
+PyDot
+Graphviz
+Python
+
+
+How to use
+
+For Remastering software 
+bash remaster_new.sh
+
+For Algorithm
+python ml.py
+
+For Dependency Tree
+python dep_tree.py
